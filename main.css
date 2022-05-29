@@ -1,0 +1,47 @@
+.title {
+  display: flex;
+  justify-content:center;
+}
+
+h3 {
+  font-size:40px;
+  border: 5px solid red;
+}
+
+.timer-menu {
+  display: flex;
+  justify-content:center;
+  font-size: 40px
+}
+
+span {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+
+#start {
+  font-size: 30px;
+  border:3px solid black;
+  background-color: #00ffff;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#stop {
+  font-size: 30px;
+  border:3px solid black;
+  background-color: red;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#reset {
+  font-size: 30px;
+  border:3px solid black;
+  background-color: #d3d3d3;
+  cursor: pointer;
+  border-radius: 10px;
+}
